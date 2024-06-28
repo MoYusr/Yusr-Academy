@@ -1,0 +1,123 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    color: #002379;
+    background-color: #FFFAE6;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Lora", serif;
+    font-size: 2.5em;
+    font-weight: 500;
+    padding-left: 4em;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 4em;
+    padding-left: 46em;
+}
+
+li {
+    padding: 1.3em;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    cursor: grab;
+}
+
+.nav-button {
+    width: 6em;
+    border-radius: .6em;
+    font-weight: 600;
+}
+
+button:hover {
+    cursor: grab;
+}
+
+.log-in {
+    background-color: transparent;
+    border: .2em solid #FF5F00;
+    padding: .8em;
+    transition: .2s ease;
+}
+
+.log-in:hover {
+    color: #FFFAE6;
+    background-color: #FF5F00;
+    border: .2em solid transparent;
+    padding: .8em;
+}
+
+.sign-up {
+    background-color: #FF5F00;
+    border: transparent;
+    padding: .95em;
+    color: #FFFAE6;
+}
+
+.blue-nav {
+    color: #002379;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    font-family: "Gravitas One", serif;
+    text-align: center;
+    font-size: 5em;
+    margin-top: 1.25em;
+    font-weight: 500;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    margin-top: -4em;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 450;
+    color: #607196;
+}
+
+.get-started {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FF5F00;
+    border: transparent;
+    padding: .95em;
+    color: #FFFAE6;
+    width: 8em;
+    border-radius: .6em;
+    font-weight: 600;
+    font-size: 1.25em;
+    margin-top: 1em;
+    transition: all 0.4s;
+}
+
+.get-started:hover {
+    box-shadow: 0 0 1em .1em #ff7321;
+}
